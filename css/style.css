@@ -1,0 +1,108 @@
+/* IMPOSTAZIONI GEERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  padding: 22px 0;
+}
+body {
+  font-family: "Roboto";
+}
+ul{
+  text-align: right;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+/* INIZIO HEADER */
+/* inizio menu */
+.ms_nav img{
+  width: 180px;
+  padding-top: 20px;
+}
+.ms_nav ul li {
+  display: inline-block;
+  line-height: 30px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.ms_nav button {
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px;
+}
+.ms_nav .ms_burger-menu {
+  font-size: 25px;
+  text-align: right;
+  color: blue;
+  padding-top: 20px;
+  line-height: 30px;
+}
+/* fine menu */
+
+/* inizio jumbo */
+.ms_jumbo {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 360px;
+}
+.ms_jumbo .ms_cloud {
+  color: white;
+}
+/* inizio ms coud */
+.ms_cloud h2 {
+  font-size: 40px;
+}
+/* inizio ms form */
+.ms_form {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.ms_form h4 {
+  text-align: center;
+}
+.ms_form h5 {
+  color:blue;
+  text-align: center;
+}
+/* bottoni form */
+.ms_jumbo .button-1 {
+  border: 1px solid blue;
+  background-color: blue;
+  padding-left: 155px;
+  padding-right: 155px;
+  border-radius: 3px;
+  color:white;
+  display: inline;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 5px;
+}
+.ms_jumbo .button-2 {
+  border: 1px solid grey;
+  background-color: white;
+  padding-left: 155px;
+  padding-right: 155px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+  color: grey;
+  display: inline;
+  margin: 5px;
+  margin-top:2px;
+}
+/* fine bottoni form */
+.ms_jumbo p {
+  font-size:11px;
+  text-align: center;
+}
