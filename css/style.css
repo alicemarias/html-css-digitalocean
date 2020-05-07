@@ -147,19 +147,35 @@ main .ms_designed {
 }
 .ms_designed img {
   height: 250px;
-}
-/* freccine prima e dopo immagine */
-.ms_designed img::after {
-  content: '\f053';
-  vertical-align: middle;
   display: inline-block;
-  font-family: 'FontAwesome 5';
-  font-size: 10px;
 }
-.ms_designed img::before {
-  content: '\f053';
-  vertical-align: middle;
-  display: inline-block;
-  font-family: 'FontAwesome 5';
-  font-size: 10px;
+.ple i {
+  font-size: 25px;
+  color: grey;
+  padding: 8px;
+}
+/* fine designed for developers */
+
+/* inizio features */
+.ms_features h3 {
+  text-align: center;
+}
+.ms_features a {
+  display: block;
+}
+/* fine features */
+
+/* inizio world */
+.ms_world {
+  background-image: linear-gradient(to bottom, #000099, #0000ff);
+  color:white;
+}
+.ms_world h3 {
+  text-align: center;
+}
+.ms_world a {
+  text-align: right;
+}
+.ms_world span{
+  text-align: center;
 }
