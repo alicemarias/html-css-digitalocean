@@ -53,7 +53,6 @@ ul li a {
   background-image: url(../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 360px;
 }
 .ms_jumbo .ms_cloud {
   color: white;
@@ -79,20 +78,18 @@ ul li a {
 .ms_jumbo .button-1 {
   border: 1px solid blue;
   background-color: blue;
-  padding-left: 155px;
-  padding-right: 155px;
   border-radius: 3px;
   color:white;
   display: inline;
   padding-top: 3px;
   padding-bottom: 3px;
   margin: 5px;
+  width: 100%;
 }
 .ms_jumbo .button-2 {
   border: 1px solid grey;
   background-color: white;
-  padding-left: 155px;
-  padding-right: 155px;
+  width: 100%;
   padding-top: 3px;
   padding-bottom: 3px;
   border-radius: 3px;
@@ -109,7 +106,33 @@ ul li a {
 /* FINE HEADER */
 
 /* INIZIO MAIN */
-main .loghipatner .patner {
-  width: 12px;
-  height: 15px;
+main .loghipatner {
+  background-color: lightgrey;
+  text-align: center;
+}
+.loghipatner h5 {
+  color: grey;
+}
+.loghipatner ul li {
+  width: 110px;
+  display: inline-block;
+  margin: 10px;
+}
+.loghipatner ul li img {
+  width: 100%;
+  vertical-align: middle;
+}
+/* fine loghi patner */
+/* inizio deploy */
+.deploy h3 {
+  text-align: center;
+}
+.deploy h5 {
+  text-align: center;
+  color: grey;
+}
+main .deploy .bordino {
+  border-left: 1px solid lightgrey;
+  padding-left: 8px;
+  color: grey;
 }
