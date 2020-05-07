@@ -106,33 +106,60 @@ ul li a {
 /* FINE HEADER */
 
 /* INIZIO MAIN */
-main .loghipatner {
+/* inizio loghi patners */
+main .ms_loghipatner {
   background-color: lightgrey;
   text-align: center;
 }
-.loghipatner h5 {
+.ms_loghipatner h5 {
   color: grey;
 }
-.loghipatner ul li {
+.ms_loghipatner ul li {
   width: 110px;
   display: inline-block;
   margin: 10px;
 }
-.loghipatner ul li img {
+.ms_loghipatner ul li img {
   width: 100%;
   vertical-align: middle;
 }
 /* fine loghi patner */
-/* inizio deploy */
-.deploy h3 {
+
+/* inizio deploy adn scale*/
+.ms_deploy h3 {
   text-align: center;
 }
-.deploy h5 {
+.ms_deploy h5 {
   text-align: center;
   color: grey;
 }
-main .deploy .bordino {
+main .ms_deploy .ms_bordino {
   border-left: 1px solid lightgrey;
   padding-left: 8px;
   color: grey;
+}
+/* fine deploy adn scale */
+
+/* inizio designed for developers */
+main .ms_designed {
+  text-align: center;
+  background-color: lightgrey;
+}
+.ms_designed img {
+  height: 250px;
+}
+/* freccine prima e dopo immagine */
+.ms_designed img::after {
+  content: '\f053';
+  vertical-align: middle;
+  display: inline-block;
+  font-family: 'FontAwesome 5';
+  font-size: 10px;
+}
+.ms_designed img::before {
+  content: '\f053';
+  vertical-align: middle;
+  display: inline-block;
+  font-family: 'FontAwesome 5';
+  font-size: 10px;
 }
