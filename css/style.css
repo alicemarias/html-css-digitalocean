@@ -22,11 +22,14 @@ ul li a {
 button {
   display: inline-block;
 }
+/* FINE IMPOSTAZIONI GENERALI */
+
 /* INIZIO HEADER */
 /* inizio menu */
 .ms_nav img{
   width: 180px;
   padding-top: 20px;
+  line-height: 30px;
 }
 .ms_nav ul li {
   display: inline-block;
@@ -40,7 +43,9 @@ button {
   color: blue;
   border: 1px solid blue;
   border-radius: 3px;
-  padding: 5px;
+  line-height: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 .ms_nav .ms_burger-menu {
   font-size: 25px;
@@ -60,11 +65,9 @@ button {
 .ms_jumbo .ms_cloud {
   color: white;
 }
-/* inizio ms coud */
 .ms_cloud h2 {
   font-size: 40px;
 }
-/* inizio ms form */
 .ms_form {
   background-color: white;
   border: 1px solid white;
@@ -102,6 +105,7 @@ button {
   margin-top:2px;
 }
 /* fine bottoni form */
+
 .ms_jumbo p {
   font-size:11px;
   text-align: center;
@@ -128,7 +132,7 @@ main .ms_loghipatner {
 }
 /* fine loghi patner */
 
-/* inizio deploy adn scale*/
+/* inizio deploy and scale*/
 .ms_deploy h3 {
   text-align: center;
 }
@@ -141,7 +145,7 @@ main .ms_deploy .ms_bordino {
   padding-left: 8px;
   color: grey;
 }
-/* fine deploy adn scale */
+/* fine deploy and scale */
 
 /* inizio designed for developers */
 main .ms_designed {
@@ -188,8 +192,6 @@ text-align: left;
 .ms_cent {
   color: lightgrey;
 }
-
-
 /* fine world */
 
 /* inizio development teams */
@@ -242,10 +244,10 @@ main .fa-ellipsis-h {
   color:blue;
   margin-top: 15px;
 }
-
 /* fine get started */
+/* FINE MAIN */
 
-/* inizio footer */
+/* INIZIO FOOTER */
 footer {
   background-color: #262673;
   color:lightgrey;
@@ -262,3 +264,4 @@ footer .row {
 footer ul  {
   text-align: left;
 }
+/* FINE FOOTER */
