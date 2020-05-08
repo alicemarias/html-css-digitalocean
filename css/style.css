@@ -19,6 +19,9 @@ ul li {
 ul li a {
   text-decoration: none;
 }
+button {
+  display: inline-block;
+}
 /* INIZIO HEADER */
 /* inizio menu */
 .ms_nav img{
@@ -108,7 +111,7 @@ ul li a {
 /* INIZIO MAIN */
 /* inizio loghi patners */
 main .ms_loghipatner {
-  background-color: lightgrey;
+  background-color: #ededef;
   text-align: center;
 }
 .ms_loghipatner h5 {
@@ -117,7 +120,7 @@ main .ms_loghipatner {
 .ms_loghipatner ul li {
   width: 110px;
   display: inline-block;
-  margin: 10px;
+  padding: 10px;
 }
 .ms_loghipatner ul li img {
   width: 100%;
@@ -143,7 +146,7 @@ main .ms_deploy .ms_bordino {
 /* inizio designed for developers */
 main .ms_designed {
   text-align: center;
-  background-color: lightgrey;
+  background-color: #ededef;
 }
 .ms_designed img {
   height: 250px;
@@ -173,11 +176,25 @@ main .ms_designed {
 .ms_world h3 {
   text-align: center;
 }
+.ms_border {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.ms_border a {
+color:  #66ffff;
+text-align: left;
+}
+.ms_cent {
+  color: lightgrey;
+}
+
+
 /* fine world */
 
 /* inizio development teams */
 .ms_teams {
-  background-color: lightgrey;
+  background-color: #ededef;
   text-align: center;
 }
 .ms_teams h3 {
@@ -223,6 +240,7 @@ main .ms_getstarted {
 main .fa-ellipsis-h {
   font-size: 30px;
   color:blue;
+  margin-top: 15px;
 }
 
 /* fine get started */
@@ -232,12 +250,14 @@ footer {
   background-color: #262673;
   color:lightgrey;
 }
+
 footer .title {
-  color:white;
+  color: white;
   font-weight: bolder;
 }
 footer .row {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 footer ul  {
   text-align: left;
